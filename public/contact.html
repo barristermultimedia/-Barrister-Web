@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Barrister Multimedia</title>
+<meta name="description" content="Send an enquiry to Barrister Multimedia and get a quote for video, streaming, sound or design.">
+<meta name="theme-color" content="#0B1A31">
+
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<div class="shell">
+<header class="site-header">
+<nav class="nav" aria-label="Main">
+<a class="brand" href="index.html" aria-label="Barrister Multimedia, home"><span class="chip"><picture><source type="image/webp" srcset="img/logo-mark.webp"><img src="img/logo-mark.png" alt="" width="52" height="40"></picture></span><span><b>BARRISTER</b><small>MULTIMEDIA</small></span></a>
+<div class="links" id="site-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="contact.html" aria-current="page">Contact</a></div>
+<div class="nav-right"><a class="btn sm" href="contact.html">Get a quote</a><button type="button" class="menu-btn" aria-expanded="false" aria-controls="site-links">Menu</button></div>
+</nav></header>
+<main id="main" tabindex="-1">
+<section class="hero short" aria-labelledby="page-title" style="padding:0">
+<div class="ph " style="--pos:50% 45%"><picture><source type="image/webp" srcset="img/studio-360.webp 360w, img/studio-736.webp 736w" sizes="100vw"><img src="img/studio-736.jpg" srcset="img/studio-360.jpg 360w, img/studio-736.jpg 736w" sizes="100vw" alt="" width="736" height="981" fetchpriority="high"></picture></div>
+<div class="hero-copy"><h1 id="page-title">Contact us</h1><p class="lede">Tell us about your event. We reply within one working day.</p></div></section><section aria-labelledby="c-h"><div class="inner centre"><p class="eyebrow">Get a quote</p><h2 class="title" id="c-h">Send an enquiry</h2>
+<div class="form-wrap">
+<div class="panel" style="text-align:left"><h2>Your details</h2>
+<div id="formStatus" tabindex="-1" role="status" aria-live="polite"></div>
+<form id="enquiry" method="post" action="/api/enquiry" novalidate>
+<div class="fgrid">
+<div class="fld"><label for="name">Your name <span aria-hidden="true">*</span></label><input type="text" id="name" name="name" autocomplete="name" required aria-required="true"><span class="err" id="e-name" role="alert"></span></div>
+<div class="fld"><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" inputmode="email"><span class="err" id="e-email" role="alert"></span></div>
+<div class="fld"><label for="phone">Phone or WhatsApp</label><input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel"><span class=hint id=phone-h>Add an email or a phone number.</span><span class="err" id="e-phone" role="alert"></span></div>
+<div class="fld"><label for="service">Service</label><select id="service" name="service"><option>Video production</option><option>Live streaming</option><option>Live sound and audio</option><option>Graphic design and print</option><option>Event coverage</option><option>Something else</option></select><span class="err" id="e-service" role="alert"></span></div>
+<div class="fld"><label for="budget">Budget</label><select id="budget" name="budget"><option value="">Not sure yet</option><option>Under 500</option><option>500 to 1,500</option><option>1,500 to 5,000</option><option>Over 5,000</option></select><span class="err" id="e-budget" role="alert"></span></div>
+<div class="fld"><label for="timeline">When do you need it?</label><select id="timeline" name="timeline"><option>This week</option><option selected>This month</option><option>Next 3 months</option><option>Just exploring</option></select><span class="err" id="e-timeline" role="alert"></span></div>
+<div class="fld wide"><label for="message">Tell us about the project <span aria-hidden="true">*</span></label><textarea id="message" name="message" rows="6" required aria-required="true"></textarea><span class="err" id="e-message" role="alert"></span></div>
+<div class="hp" aria-hidden="true"><label>Leave this empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<div class="fld wide"><button type="submit" class="btn" id="send">Send enquiry</button></div>
+</div></form></div>
+<aside class="panel" style="text-align:left" aria-labelledby="d-h"><h2 id="d-h">Direct contact</h2>
+<dl class="info"><div><dt>Email</dt><dd><a href="mailto:" data-site="email">name@yourdomain.com</a></dd></div>
+<div><dt>Phone</dt><dd><a href="tel:" data-site="phone">+000 00 000 0000</a></dd></div>
+<div><dt>Response time</dt><dd class="mute">Within one working day</dd></div></dl>
+<p style="margin-top:1.4rem"><a class="btn wa" href="#" data-wa="Hello Barrister Multimedia, I would like a quote." hidden>Chat on WhatsApp</a></p></aside>
+</div></div></section>
+</main>
+<footer><div class="inner">
+<div class="cols">
+<div><a class="logo" href="index.html" aria-label="Barrister Multimedia, home"><picture><source type="image/webp" srcset="img/logo-full.webp"><img src="img/logo-full.png" alt="Barrister Multimedia" width="150" height="60" loading="lazy"></picture></a>
+<p>Video, live streaming, sound and design for events, ministries and businesses.</p></div>
+<nav aria-label="Footer"><h2>Pages</h2><ul><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+<div><h2>Get in touch</h2><ul><li><a href="mailto:" data-site="email">name@yourdomain.com</a></li><li><a href="tel:" data-site="phone">+000 00 000 0000</a></li><li><a class="wa-link" href="#" data-wa="Hello Barrister Multimedia, " hidden>Chat on WhatsApp</a></li><li><a href="staff.html">Staff login</a></li><li><a href="admin.html">Admin</a></li></ul></div>
+</div>
+<p class="legal">&copy; <span id="yr">2026</span> Barrister Multimedia. All rights reserved.</p>
+</div></footer>
+</div>
+<script src="js/config.js" defer></script><script src="js/site.js" defer></script>
+<script src="js/year.js" defer></script>
+</body>
+</html>
